@@ -8,7 +8,8 @@ export const ContadorScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.tittle}>Contador: {contador}</Text>
-      <Fab title="+1" />
+      <Fab title="+1" onPress={() => setContador(contador + 1)} />
+      <Fab title="-1" onPress={() => setContador(contador - 1)} position="bl" />
 
       {/*     <Button title="Click" onPress={() => setContador(contador + 1)} /> */}
 
