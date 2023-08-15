@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 
-export const TareaScreen = () => {
+export const Tarea1Screen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.cajaMorada} />
@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#5856D6',
   },
   cajaNaranja: {
+    flex: 1,
     width: 100,
-    height: 100,
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#F0A23B',
