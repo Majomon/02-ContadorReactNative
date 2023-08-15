@@ -1,6 +1,7 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import {Tarea6Screen} from './src/screens/Tarea6screen';
+import {Tarea7Screen} from './src/screens/Tarea7Screen';
+/* import {Tarea6Screen} from './src/screens/Tarea6screen'; */
 /* import {Tarea5Screen} from './src/screens/Tarea5Screen'; */
 /* import {Tarea4Screen} from './src/screens/Tarea4Screen'; */
 /* import {Tarea3Screen} from './src/screens/Tarea3Screen'; */
@@ -27,7 +28,8 @@ const App = () => {
       {/* <Tarea3Screen /> */}
       {/*       <Tarea4Screen /> */}
       {/*    <Tarea5Screen /> */}
-      <Tarea6Screen />
+      {/*       <Tarea6Screen /> */}
+      <Tarea7Screen />
     </SafeAreaView>
   );
 };
