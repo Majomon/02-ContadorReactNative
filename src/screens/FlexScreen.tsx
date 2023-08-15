@@ -15,11 +15,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28C4D9',
-    flexDirection: 'row',
+    justifyContent: 'space-around',
+    /*     flexDirection: 'row', */
   },
   caja1: {
-    flex: 1,
-    width: 100,
+    /*     flex: 1, */
+    /*   width: 100, */
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
