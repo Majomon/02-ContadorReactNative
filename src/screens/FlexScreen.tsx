@@ -15,8 +15,44 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28C4D9',
+    flexDirection: 'row',
   },
-/*   caja1: {
+  caja1: {
+    flex: 1,
+    width: 100,
+    borderWidth: 2,
+    borderColor: 'white',
+    fontSize: 30,
+  },
+  caja2: {
+    borderWidth: 2,
+    borderColor: 'white',
+    fontSize: 30,
+  },
+  caja3: {
+    borderWidth: 2,
+    borderColor: 'white',
+    fontSize: 30,
+  },
+  /*   caja1: {
+    flex: 3, // 3 + 2 + 1 = 6
+    borderWidth: 2,
+    borderColor: 'white',
+    fontSize: 30,
+  },
+  caja2: {
+    flex: 2,
+    borderWidth: 2,
+    borderColor: 'white',
+    fontSize: 30,
+  },
+  caja3: {
+    flex: 1,
+    borderWidth: 2,
+    borderColor: 'white',
+    fontSize: 30,
+  }, */
+  /*   caja1: {
     //Esta caja ocupa el 40%
     flex: 4,
     borderWidth: 2,
@@ -37,22 +73,4 @@ const styles = StyleSheet.create({
     borderColor: 'white',
     fontSize: 30,
   }, */
-  caja1: {
-    flex: 3, // 3 + 2 + 1 = 6
-    borderWidth: 2,
-    borderColor: 'white',
-    fontSize: 30,
-  },
-  caja2: {
-    flex: 2,
-    borderWidth: 2,
-    borderColor: 'white',
-    fontSize: 30,
-  },
-  caja3: {
-    flex: 1,
-    borderWidth: 2,
-    borderColor: 'white',
-    fontSize: 30,
-  },
 });
