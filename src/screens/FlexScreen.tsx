@@ -16,9 +16,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#28C4D9',
     /*     justifyContent: 'space-around', */
-    flexDirection: 'row',
+    /*   flexDirection: 'row',
     justifyContent: 'flex-end',
-    alignItems: 'flex-end',
+    alignItems: 'flex-end', */
+    flexDirection: 'row',
+    alignItems: 'flex-start',
   },
   caja1: {
     /*     flex: 1, */
@@ -26,16 +28,19 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    /* alignSelf: 'center', */ // El alignSelf se sobrepone sobre el justifyContent/alignItems
   },
   caja2: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    alignSelf: 'flex-start',
   },
   caja3: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    alignSelf: 'flex-end',
   },
   /*   caja1: {
     flex: 3, // 3 + 2 + 1 = 6
